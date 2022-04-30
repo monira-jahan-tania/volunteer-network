@@ -1,0 +1,32 @@
+.login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.login form input {
+    width: 500px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px
+}
+
+.login form .line {
+    height: 2px;
+    width: 500px;
+    background-color: darkgreen;
+}
+
+.login .btn {
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+.login a {
+    color: darkgreen;
+    text-decoration: none;
+}

@@ -1,0 +1,37 @@
+nav {
+    margin: 0 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a,
+.signOutBtn {
+    margin-left: 5px;
+    padding: 10px 20px;
+
+}
+
+.signOutBtn {
+    border: none;
+}
+
+.menu a:hover,
+.signOutBtn:hover {
+    background-color: darkgreen;
+    color: antiquewhite;
+}

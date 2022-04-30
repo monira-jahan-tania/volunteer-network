@@ -1,0 +1,23 @@
+.manageWork {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.delete-work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.delete-work button {
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.delete-work button:hover {
+    background-color: darkgreen;
+    color: aliceblue;
+    border: none;
+}

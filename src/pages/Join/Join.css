@@ -1,0 +1,32 @@
+.join form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.join form input {
+    width: 500px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px
+}
+
+.join form .line {
+    height: 2px;
+    width: 500px;
+    background-color: darkgreen;
+}
+
+.join .btn {
+    background-color: darkgreen;
+    color: aliceblue;
+}
+
+.join a {
+    color: darkgreen;
+    text-decoration: none;
+}
